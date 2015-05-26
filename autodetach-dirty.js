@@ -4,7 +4,7 @@ $([IPython.events]).on('app_initialized.NotebookApp', function(){
           IPython.toolbar.add_buttons_group([
              {
 //                 'label'   : 'toggle auto-detach pager',
-  		 'label'   : 'Auto-detach pager active',
+  		 'label'   : 'Auto-detach pager ON',
                  'icon'    : 'icon-external-link',
 		 'id'      : 'auto-detach_button',
                  'callback': function () {
