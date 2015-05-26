@@ -1,5 +1,8 @@
 //cargar con IPython.load_extensions('kate-commenter'); en custom.js
-$([IPython.events]).on("app_initialized.NotebookApp", function () {
+// $([IPython.events]).on("app_initialized.NotebookApp", function () {
+//	IPython.load_extensions('kate-commenter');
+// });
+//en custom.js
 //window.alert("HELP!");
 /*IPython.CodeCell.options_default.cm_config.extraKeys= {
                 "Tab" :  "indentMore",
@@ -16,4 +19,4 @@ IPython.CodeCell.options_default.cm_config.extraKeys["Ctrl-D"] = "toggleComment"
 IPython.CodeCell.options_default.cm_config.extraKeys["Shift-Ctrl-D"] = "toggleComment";
 IPython.CodeCell.options_default.cm_config.extraKeys["Shift-Alt-D"] = "deleteLine";
 
-});
+//});
