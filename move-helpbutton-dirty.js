@@ -1,4 +1,4 @@
-//$([IPython.events]).on("app_initialized.NotebookApp", function () {
+$([IPython.events]).on("app_initialized.NotebookApp", function () {
 IPython.Pager.prototype.create_button_area = function(){
         var that = this;
         this.pager_button_area.append(
@@ -12,4 +12,4 @@ IPython.Pager.prototype.create_button_area = function(){
                     )
         )
 };
-//});
+});
