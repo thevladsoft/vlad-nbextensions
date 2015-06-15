@@ -18,5 +18,7 @@
 IPython.CodeCell.options_default.cm_config.extraKeys["Ctrl-D"] = "toggleComment";
 IPython.CodeCell.options_default.cm_config.extraKeys["Shift-Ctrl-D"] = "toggleComment";
 IPython.CodeCell.options_default.cm_config.extraKeys["Shift-Alt-D"] = "deleteLine";
+//Y esto es solo para que las celdas con Markdown hereden de las textcell (creo, funcionara?)
+//IPython.MarkdownCell.options_default['cm_config'] = {extraKeys : { }};
 
 //});
